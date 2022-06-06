@@ -10,11 +10,13 @@
     "@types/node": "^16.11.38",
     "@types/react": "^18.0.12",
     "@types/react-dom": "^18.0.5",
+    "node-pre-gyp": "^0.17.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.7.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "x64": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "canvas": "^2.9.1",
     "jest-watch-typeahead": "^0.6.5"
   }
 }

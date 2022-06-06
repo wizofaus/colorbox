@@ -1,4 +1,14 @@
 {
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/helloworld.ts",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "outFiles": ["${workspaceFolder}/out/**/*.js"]
+    }
+  ], 
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -18,7 +28,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "outDir": "out"
   },
   "include": [
     "src"
